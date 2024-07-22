@@ -31,7 +31,6 @@ def simple_interest(principal, interest_rate, time):
 
 # print("Exercise 2:", simple_interest(1000, 5, 2))
 
-
 # Exercise 3: Apply a Discount
 #
 # Write a function named `apply_discount` that takes a product's price and a discount percentage (from 0 to 100).
@@ -70,5 +69,25 @@ def convert_temperature(temp, unit):
         return (temp - 32) * 5 / 9
 
 
-print("Exercise 4: Convert 0°C to Fahrenheit:", convert_temperature(0, "C"))
-print("Exercise 4: Convert 32°F to Celsius:", convert_temperature(32, "F"))
+# print("Exercise 4: Convert 0°C to Fahrenheit:", convert_temperature(0, "C"))
+# print("Exercise 4: Convert 32°F to Celsius:", convert_temperature(32, "F"))
+
+
+# Exercise 5: Sum to N
+#
+# Write a function named `sum_to` that takes a single integer n and returns the sum of all integers from 1 to n.
+#
+# Examples:
+# sum_to(6) should return 21.
+# sum_to(10) should return 55.
+#
+# Define the function and then call it below.
+def sum_to(n):
+    sum = 0
+    for num in range(n + 1):
+        sum += num
+
+    return sum
+
+
+print("Exercise 5:", sum_to(10))
