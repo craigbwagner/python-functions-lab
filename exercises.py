@@ -31,7 +31,6 @@ def simple_interest(principal, interest_rate, time):
 
 # print("Exercise 2:", simple_interest(1000, 5, 2))
 
-
 # Exercise 3: Apply a Discount
 #
 # Write a function named `apply_discount` that takes a product's price and a discount percentage (from 0 to 100).
